@@ -1,0 +1,16 @@
+{
+  "name": "bitcoin-brokerage-app",
+  "version": "1.0.0",
+  "description": "A Bitcoin brokerage app",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "firebase": "^9.0.0",
+    "chart.js": "^3.0.0"
+  },
+  "devDependencies": {},
+  "author": "",
+  "license": "ISC"
+}
