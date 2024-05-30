@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Transactions</title>
+</head>
+<body>
+    <div class="sidebar">
+        <div class="logo">
+            <img src="logo.png" alt="Company Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="dashboard.html">Dashboard</a></li>
+                <li><a href="quote.html">Quote</a></li>
+                <li><a href="transactions.html">Transactions</a></li>
+                <li><a href="clients.html">Clients</a></li>
+                <li><a href="settings.html">Settings</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="main-content">
+        <header>
+            <input type="text" placeholder="Search...">
+            <img src="profile.png" alt="Profile" class="profile-pic">
+        </header>
+        <section class="transactions">
+            <h2>Transactions</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Date</th>
+                        <th>Client</th>
+                        <th>Type</th>
+                        <th>Amount</th>
+                        <th>Price</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Transactions data will be populated here by transactions.js -->
+                </tbody>
+            </table>
+        </section>
+    </div>
+    <script src="transactions.js"></script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Dashboard</title>
+</head>
+<body>
+    <div class="sidebar">
+        <div class="logo">
+            <img src="logo.png" alt="Company Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="dashboard.html">Dashboard</a></li>
+                <li><a href="quote.html">Quote</a></li>
+                <li><a href="transactions.html">Transactions</a></li>
+                <li><a href="clients.html">Clients</a></li>
+                <li><a href="settings.html">Settings</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="main-content">
+        <header>
+            <input type="text" placeholder="Search...">
+            <img src="profile.png" alt="Profile" class="profile-pic">
+        </header>
+        <section class="overview">
+            <div class="stat-box">
+                <h3>Bitcoin Price</h3>
+                <p id="bitcoin-price">$0.00</p>
+            </div>
+            <div class="stat-box">
+                <h3>Wallet Balance</h3>
+                <p id="wallet-balance">0 BTC</p>
+            </div>
+            <div class="stat-box">
+                <h3>Weekly Volume</h3>
+                <p id="weekly-volume">0 BTC</p>
+            </div>
+        </section>
+        <section class="charts">
+            <div class="chart">
+                <canvas id="transactions-chart"></canvas>
+            </div>
+            <div class="chart">
+                <canvas id="volume-chart"></canvas>
+            </div>
+        </section>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="dashboard.js"></script>
+</body>
+</html>

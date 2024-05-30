@@ -1,0 +1,180 @@
+body {
+    display: flex;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #1a1a1a;
+    color: #e0e0e0;
+}
+
+.sidebar {
+    width: 250px;
+    background-color: #2b2b2b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.sidebar .logo img {
+    width: 150px;
+}
+
+.sidebar nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar nav ul li {
+    margin: 20px 0;
+}
+
+.sidebar nav ul li a {
+    color: #e0e0e0;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.main-content {
+    flex: 1;
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #444;
+}
+
+header input[type="text"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 300px;
+}
+
+header .profile-pic {
+    width: 50px;
+    border-radius: 50%;
+}
+
+.overview {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.stat-box {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    width: 30%;
+    text-align: center;
+}
+
+.charts {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.chart {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    width: 45%;
+}
+
+.setup-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #1a1a1a;
+}
+
+.setup-container h1 {
+    margin-bottom: 20px;
+}
+
+.setup-container form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+.setup-container form input {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #2b2b2b;
+    color: #e0e0e0;
+}
+
+.setup-container form button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4a4a4a;
+    color: #e0e0e0;
+    cursor: pointer;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote-box {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.quote-box .buy, .quote-box .sell {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    width: 45%;
+    text-align: center;
+}
+
+.transactions, .clients, .settings {
+    margin-top: 20px;
+}
+
+.transactions table, .clients table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.transactions th, .clients th, .transactions td, .clients td {
+    padding: 10px;
+    border: 1px solid #444;
+}
+
+.settings form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+.settings form div {
+    margin-bottom: 10px;
+}
+
+.settings form input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #2b2b2b;
+    color: #e0e0e0;
+}
+
+.settings form button {
+    padding: 10px;
+}

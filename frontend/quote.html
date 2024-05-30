@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Quote</title>
+</head>
+<body>
+    <div class="sidebar">
+        <div class="logo">
+            <img src="logo.png" alt="Company Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="dashboard.html">Dashboard</a></li>
+                <li><a href="quote.html">Quote</a></li>
+                <li><a href="transactions.html">Transactions</a></li>
+                <li><a href="clients.html">Clients</a></li>
+                <li><a href="settings.html">Settings</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="main-content">
+        <header>
+            <input type="text" placeholder="Search...">
+            <img src="profile.png" alt="Profile" class="profile-pic">
+        </header>
+        <section class="quote">
+            <h2>Bitcoin Quote</h2>
+            <div class="quote-box">
+                <div class="buy">
+                    <h3>Buy Price</h3>
+                    <p id="buy-price">$0.00</p>
+                    <button id="buy-btn">Buy</button>
+                </div>
+                <div class="sell">
+                    <h3>Sell Price</h3>
+                    <p id="sell-price">$0.00</p>
+                    <button id="sell-btn">Sell</button>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="quote.js"></script>
+</body>
+</html>
